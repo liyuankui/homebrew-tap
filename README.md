@@ -1,14 +1,10 @@
-# iKit Homebrew Tap (私有)
+# iKit Homebrew Tap
 
-[iKit](https://github.com/liyuankui/ikit)（Apple Ecosystem CLI for Agents）的私有分发渠道。
+[iKit](https://github.com/liyuankui/ikit)（Apple Ecosystem CLI for Agents）的 Homebrew 分发渠道。
 
 ## 安装
 
 ```bash
-# 1. 设置 token（私有仓库下载需要）
-export HOMEBREW_GITHUB_API_TOKEN=$(gh auth token)
-
-# 2. 添加 tap 并安装
 brew tap liyuankui/tap
 brew install liyuankui/tap/ikit
 ```
@@ -16,7 +12,6 @@ brew install liyuankui/tap/ikit
 ## 升级
 
 ```bash
-export HOMEBREW_GITHUB_API_TOKEN=$(gh auth token)
 brew upgrade liyuankui/tap/ikit
 ```
 
@@ -29,5 +24,4 @@ brew upgrade liyuankui/tap/ikit
 
 ## 注意
 
-- 本仓库与 iKit 均为 **private**，token 仅需要 `repo` 权限的 Personal Access Token
 - 二进制为 arm64（Apple Silicon）
