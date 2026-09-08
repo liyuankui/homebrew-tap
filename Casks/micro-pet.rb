@@ -1,8 +1,8 @@
 cask "micro-pet" do
-  version "0.6.1"
-  sha256 "654a8181240de5d225068e3648e3786a0cc107dccaa2d5d192fbc96f6e406b10"
+  version "0.7.0"
+  sha256 "e9cc950e01ac8b7687b589352fc8d1a921fc4d5a2f048bce04480e31d393f498"
 
-  url "https://github.com/liyuankui/workoutpet/releases/download/v0.6.1/micro-pet-0.6.1-macos-arm64.zip"
+  url "https://github.com/liyuankui/workoutpet/releases/download/v0.7.0/micro-pet-0.7.0-macos-arm64.zip"
   name "micro-pet"
   desc "Pixel cat micro-exercise desk pet — bilingual, pet-to-check-in, local streak"
   homepage "https://github.com/liyuankui/workoutpet"
