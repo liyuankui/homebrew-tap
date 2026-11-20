@@ -1,9 +1,9 @@
 class Ikit < Formula
-  desc "Apple Ecosystem CLI for Agents (Notes/Reminders/Calendar/Photos/Health/Meet/Timer)"
+  desc "Apple Ecosystem CLI for Agents (Notes/Reminders/Calendar/Photos/Health/Meet/Timer/Notify)"
   homepage "https://github.com/liyuankui/ikit"
-  url "https://github.com/liyuankui/ikit/releases/download/v2.10.3/ikit-arm64.tar.gz"
-  version "2.10.3"
-  sha256 "157ea7f380124c5cc89c8ec492696ddf87d0d09cc68cd1b6c02f6551215173f1"
+  url "https://github.com/liyuankui/ikit/releases/download/v2.11.0/ikit-arm64.tar.gz"
+  version "2.11.0"
+  sha256 "b7bbb3da9fc9311b0a340561d4e9bac95e8dca6a62e560d6f789873d905c805b"
 
   def install
     bin.install "ikit"
